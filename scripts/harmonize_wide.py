@@ -16,7 +16,7 @@ import pandas as pd
 
 YEARS = ["2011", "2014", "2017", "2018", "2019"]
 ORGANS = {"resp": "respiratory", "neur": "neurological", "immu": "immunological", "kidn": "kidney",
-          "kidney": "kidney", "liver": "liver", "all": "all_organs_max"}
+          "kidney": "kidney", "liver": "liver", "all": "by_organ"}
 
 
 def classify(path):
@@ -30,7 +30,7 @@ def classify(path):
         m = re.search(r"(resp|neur|immu|kidney|kidn|liver|all)(?:hi|_by)", n)
         if not m:
             return None
-        metric, unit = f"hazard_index_{ORGANS[m.group(1)]}", "hazard_index"
+        metric, unit = ("hazard_index", "hazard_index") if m.group(1) == "all" else (f"hazard_index_{ORGANS[m.group(1)]}", "hazard_index")
     if "srcgrp" in n or "source" in n:
         dim = "source"
     elif "poll" in n:
@@ -45,7 +45,7 @@ def geo(row_state, row_county, fips, tract):
     c = str(row_county).strip().lower()
     if t == "00000000000" or c.startswith("entire u"):
         return "nation", "00"
-    if c.startswith("entire state"):
+    if c.startswith("entire state") or t[2:] == "000000000":
         return "state", t[:2]
     if t.endswith("000000"):
         return "county", t[:5]
@@ -63,19 +63,25 @@ def clean_name(col):
 def convert(path, year, out_path):
     metric, unit, dim = classify(path)
     df = pd.read_excel(path, engine="calamine", dtype=str)
-    ids = df.iloc[:, :6]
-    ids.columns = ["state", "region", "county", "fips", "tract", "population"]
+    if str(df.columns[0]).strip().lower() == "tract":  # 2014/2019 all-organ files: only Tract, Population
+        ids = pd.DataFrame({"state": None, "region": None, "county": "", "fips": None,
+                            "tract": df.iloc[:, 0], "population": df.iloc[:, 1]})
+        nid = 2
+    else:
+        ids = df.iloc[:, :6]
+        ids.columns = ["state", "region", "county", "fips", "tract", "population"]
+        nid = 6
     g = [geo(*r) for r in zip(ids.state, ids.county, ids.fips, ids.tract)]
     base = pd.DataFrame({
         "year": int(year),
         "geo_level": [x[0] for x in g],
         "geoid": [x[1] for x in g],
-        "state": ids.state.str.strip(),
-        "county": ids.county.str.strip(),
+        "state": ids.state.astype("string").str.strip(),
+        "county": ids.county.astype("string").str.strip(),
         "population": pd.to_numeric(ids.population, errors="coerce"),
     })
     parts = []
-    for col in df.columns[6:]:
+    for col in df.columns[nid:]:
         name = clean_name(col)
         is_total = name.lower().startswith("total")
         d = "total" if is_total else ("organ" if dim == "mixed" else dim)

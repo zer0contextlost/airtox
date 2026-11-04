@@ -108,6 +108,12 @@ def hap_tracts(raw, out, xr):
                 dim, nm, metric, unit = k
                 meta.append((c, dim, nm, metric, unit))
             long = melt(base, df, meta, f"{os.path.relpath(mdb, raw)}:{t}")
+            # 3 tables (2,4-toluene diamine, benzyl chloride, POM) name risk "Risktotal" etc. without
+            # "_per_million" and store it as a probability: scale those to per million like the rest
+            prob = [c for c, _, _, m, _ in meta if m == "cancer_risk" and not c.lower().endswith("_per_million")]
+            if prob:
+                long.loc[long.metric == "cancer_risk", "value"] *= 1e6
+                print(f"  {pname}: risk columns {prob} are probabilities, scaled x1e6", flush=True)
             long.insert(long.columns.get_loc("dimension"), "pollutant", pname)
             pq.write_table(pa.Table.from_pandas(long, preserve_index=False), dest)
         # EPA total vs sum of sectors, per metric

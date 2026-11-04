@@ -79,6 +79,24 @@ def main(derived, rel):
                 t = rollup(files, level)
                 pq.write_table(t, out)
                 print(f"rollup {y} {level} {kind}: {t.num_rows} areas", flush=True)
+    # noncancer hazard (2020 + 2021 recomputed), blocks + rollups
+    for y in ("2020", "2021"):
+        hd = f"{derived}/hazard_{y}"
+        for f in glob.glob(f"{hd}/{y}_R*"):
+            link(f, os.path.join(rel, "data/hazard", y, os.path.basename(f)))
+        for kind in ("hi", "resp_hi_by_src"):
+            files = sorted(glob.glob(f"{hd}/{y}_R*_{kind}.parquet"))
+            if not files:
+                continue
+            for level in ("tract", "county"):
+                out = os.path.join(rel, f"data/rollups/{y}_{level}_{kind}.parquet")
+                t = rollup(files, level)
+                pq.write_table(t, out)
+                print(f"rollup {y} {level} {kind}: {t.num_rows} areas", flush=True)
+    # rescored series (2020 toxicity values applied to every year)
+    for f in glob.glob(f"{derived}/rescored/*"):
+        link(f, os.path.join(rel, "data/rescored_2020tox", os.path.basename(f)))
+    link(f"{derived}/validate_hi_2019.json", os.path.join(rel, "validation", "noncancer_method_check_2019.json"))
     for f in glob.glob(f"{derived}/tox/*.csv") + [f"{derived}/pahpom_transfer_2019_2020_county.csv"]:
         link(f, os.path.join(rel, "validation", os.path.basename(f)))
     test = f"{derived}/risk_csv_test/2020_R1_summary.json"

@@ -1,0 +1,141 @@
+{
+ "pollutants_with_rfc_and_ec": 97,
+ "per_organ_file": {
+  "resp": {
+   "epa_pollutants": 42,
+   "our_flagged": 42,
+   "epa_not_flagged_by_us": [],
+   "flagged_by_us_not_in_epa": [],
+   "pollutants_compared": 42,
+   "max_rel_err_hq": 0.0009507634827378153,
+   "worst_pollutant": "CHROMIUM VI (HEXAVALENT)",
+   "worst_pollutant_p99_rel_err": 2.220446049250313e-16
+  },
+  "neuro": {
+   "epa_pollutants": 21,
+   "our_flagged": 21,
+   "epa_not_flagged_by_us": [],
+   "flagged_by_us_not_in_epa": [],
+   "pollutants_compared": 21,
+   "max_rel_err_hq": 0.6354369699786961,
+   "worst_pollutant": "ETHYLENE OXIDE",
+   "worst_pollutant_p99_rel_err": 1.883933771706874e-07
+  },
+  "immune": {
+   "epa_pollutants": 3,
+   "our_flagged": 3,
+   "epa_not_flagged_by_us": [],
+   "flagged_by_us_not_in_epa": [],
+   "pollutants_compared": 3,
+   "max_rel_err_hq": 1.2823621720059464e-08,
+   "worst_pollutant": "TRICHLOROETHYLENE",
+   "worst_pollutant_p99_rel_err": 8.126739281522081e-12
+  },
+  "kidney": {
+   "epa_pollutants": 8,
+   "our_flagged": 8,
+   "epa_not_flagged_by_us": [],
+   "flagged_by_us_not_in_epa": [],
+   "pollutants_compared": 8,
+   "max_rel_err_hq": 0.0007761619617906446,
+   "worst_pollutant": "METHYL TERT-BUTYL ETHER",
+   "worst_pollutant_p99_rel_err": 0.00010165614168925819
+  },
+  "liver": {
+   "epa_pollutants": 20,
+   "our_flagged": 20,
+   "epa_not_flagged_by_us": [],
+   "flagged_by_us_not_in_epa": [],
+   "pollutants_compared": 20,
+   "max_rel_err_hq": 0.0007761619617906446,
+   "worst_pollutant": "METHYL TERT-BUTYL ETHER",
+   "worst_pollutant_p99_rel_err": 0.00010165614168925819
+  }
+ },
+ "all_organ_file": {
+  "resp": {
+   "tracts": 73449,
+   "pollutants": 42,
+   "within_rounding": 0.9999455404430285,
+   "median_rel_err": 0.08225903177765703
+  },
+  "liver": {
+   "tracts": 73449,
+   "pollutants": 20,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.04010067944519213
+  },
+  "neuro": {
+   "tracts": 73449,
+   "pollutants": 21,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.0992176753800309
+  },
+  "dev": {
+   "tracts": 73449,
+   "pollutants": 7,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06938988655545808
+  },
+  "reprod": {
+   "tracts": 73449,
+   "pollutants": 7,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.061743999861956556
+  },
+  "kidney": {
+   "tracts": 73449,
+   "pollutants": 8,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06950327696217706
+  },
+  "ocular": {
+   "tracts": 73449,
+   "pollutants": 3,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06690467270505562
+  },
+  "endoc": {
+   "tracts": 73449,
+   "pollutants": 1,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06898990049999987
+  },
+  "hemato": {
+   "tracts": 73449,
+   "pollutants": 1,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06452663000000003
+  },
+  "immune": {
+   "tracts": 73449,
+   "pollutants": 3,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06322316628782931
+  },
+  "skeletal": {
+   "tracts": 73449,
+   "pollutants": 1,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06419392290357145
+  },
+  "spleen": {
+   "tracts": 73449,
+   "pollutants": 1,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.06449094523666687
+  },
+  "thyroid": {
+   "tracts": 73449,
+   "pollutants": 3,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.0739401493426251
+  },
+  "wholebod": {
+   "tracts": 73449,
+   "pollutants": 4,
+   "within_rounding": 1.0,
+   "median_rel_err": 0.058462012168791544
+  }
+ }
+}
