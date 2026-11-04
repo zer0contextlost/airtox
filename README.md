@@ -4,6 +4,7 @@ Every national air toxics assessment EPA has published (NATA 1996, 1999, 2002, 2
 
 **Data:** https://huggingface.co/datasets/zer0contextlost/airtox
 **Code:** https://github.com/zer0contextlost/airtox
+**Map:** https://zer0contextlost.github.io/airtox/ (every county, every year, as published or rescored on 2020 toxicity values)
 
 ## Why 2021 is here
 
