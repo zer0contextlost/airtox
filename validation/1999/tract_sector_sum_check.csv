@@ -1,0 +1,522 @@
+pollutant,metric,p99_rel_err_sectors_vs_total
+"1,1,2,2-Tetrachloroethane",ambient_conc,3.7989984673192994e-07
+"1,1,2,2-Tetrachloroethane",cancer_risk,0.00042406454066534527
+"1,1,2,2-Tetrachloroethane",exposure_conc,0.00042406454066537416
+"1,1,2-Trichloroethane",ambient_conc,1.951939551113389e-05
+"1,1,2-Trichloroethane",cancer_risk,0.00041869743269553613
+"1,1,2-Trichloroethane",exposure_conc,0.00041869743269553613
+"1,1,2-Trichloroethane",hazard_quotient,0.00041869743269553613
+"1,1-Dimethyl hydrazine",ambient_conc,0.0
+"1,2,4-Trichlorobenzene",ambient_conc,2.7442166515834198e-05
+"1,2,4-Trichlorobenzene",exposure_conc,0.0004701899733660868
+"1,2,4-Trichlorobenzene",hazard_quotient,0.00047018997336589806
+"1,2-Dibromo-3-chloropropane",ambient_conc,0.0
+"1,2-Dibromo-3-chloropropane",cancer_risk,0.00018864759254657776
+"1,2-Dibromo-3-chloropropane",exposure_conc,0.00018864759254665992
+"1,2-Dibromo-3-chloropropane",hazard_quotient,0.00018864759254657776
+"1,2-Diphenylhydrazine",ambient_conc,0.0
+"1,2-Diphenylhydrazine",cancer_risk,0.0
+"1,2-Diphenylhydrazine",exposure_conc,0.0
+"1,2-Epoxybutane",ambient_conc,2.6279147538622582e-05
+"1,2-Epoxybutane",exposure_conc,0.0004589110961528296
+"1,2-Epoxybutane",hazard_quotient,0.0004589110961529562
+"1,2-Propylenimine",ambient_conc,0.0
+"1,3-Butadiene",ambient_conc,2.9195078580776967e-05
+"1,3-Butadiene",cancer_risk,0.00044827591515144116
+"1,3-Butadiene",exposure_conc,0.0004482759151516632
+"1,3-Butadiene",hazard_quotient,0.0004482759151516632
+"1,3-Dichloropropene",ambient_conc,1.9932326374702876e-05
+"1,3-Dichloropropene",cancer_risk,0.0001253284941457695
+"1,3-Dichloropropene",exposure_conc,0.0001253284941457695
+"1,3-Dichloropropene",hazard_quotient,0.00012532849414563738
+"1,3-Propane sultone",ambient_conc,0.0
+"1,3-Propane sultone",cancer_risk,0.0
+"1,3-Propane sultone",exposure_conc,0.0
+"1,4-Dioxane",ambient_conc,2.418912565040888e-05
+"1,4-Dioxane",cancer_risk,0.0004636651729620065
+"1,4-Dioxane",exposure_conc,0.0004636651729620065
+"1,4-Dioxane",hazard_quotient,0.0004636651729620276
+"2,2,4-Trimethylpentane",ambient_conc,4.128372578780616e-05
+"2,4,5-Trichlorophenol",ambient_conc,0.0
+"2,4,6-Trichlorophenol",ambient_conc,3.567128641820624e-05
+"2,4,6-Trichlorophenol",cancer_risk,0.0004846009014664075
+"2,4,6-Trichlorophenol",exposure_conc,0.00048460090146633644
+"2,4-D, salts and esters",ambient_conc,0.0
+"2,4-Dinitrophenol",ambient_conc,1.6246759039715284e-05
+"2,4-Dinitrotoluene",ambient_conc,3.064806338286965e-05
+"2,4-Dinitrotoluene",cancer_risk,0.0004716756245913793
+"2,4-Dinitrotoluene",exposure_conc,0.0004716756245913793
+"2,4-Dinitrotoluene",hazard_quotient,0.00047167562459104844
+"2,4-Toluene diamine",ambient_conc,2.220446049250313e-16
+"2,4-Toluene diamine",cancer_risk,0.0004039696785810127
+"2,4-Toluene diamine",exposure_conc,0.00040396967858109036
+"2,4-Toluene diisocyanate",ambient_conc,2.246871471011314e-05
+"2,4-Toluene diisocyanate",cancer_risk,0.0004222972972973693
+"2,4-Toluene diisocyanate",exposure_conc,0.00042229729729726273
+"2,4-Toluene diisocyanate",hazard_quotient,0.0004222972972972716
+2-Acetylaminofluorene,ambient_conc,0.0
+2-Chloroacetophenone,ambient_conc,2.6004773521997042e-05
+2-Chloroacetophenone,exposure_conc,0.000414190201663218
+2-Chloroacetophenone,hazard_quotient,0.000414190201663218
+2-Nitropropane,ambient_conc,1.2218784034709594e-05
+2-Nitropropane,cancer_risk,0.00027287045209367563
+2-Nitropropane,exposure_conc,0.00027287045209389767
+"3,3-Dichlorobenzidene",ambient_conc,3.7861371808500838e-06
+"3,3-Dichlorobenzidene",cancer_risk,0.00010575221269358037
+"3,3-Dichlorobenzidene",exposure_conc,0.0001057522126935615
+"3,3-Dimethoxybenzidine",ambient_conc,0.0
+"3,3-Dimethoxybenzidine",cancer_risk,0.0
+"3,3-Dimethoxybenzidine",exposure_conc,0.0
+"3,3-Dimethyl benzidine",ambient_conc,0.0
+"3,3-Dimethyl benzidine",cancer_risk,0.0
+"3,3-Dimethyl benzidine",exposure_conc,0.0
+"4,4'-Methylene bis(2-chloroaniline)",ambient_conc,1.1085102580105036e-05
+"4,4'-Methylene bis(2-chloroaniline)",cancer_risk,0.00047017676067404604
+"4,4'-Methylene bis(2-chloroaniline)",exposure_conc,0.0004701767606739683
+"4,4'-Methylenedianiline",ambient_conc,1.5595521414568733e-05
+"4,4'-Methylenedianiline",cancer_risk,0.0003620289828503377
+"4,4'-Methylenedianiline",exposure_conc,0.0003620289828505442
+"4,4'-Methylenedianiline",hazard_quotient,0.0003620289828503377
+"4,6-Dinitro-o-cresol, and salts",ambient_conc,5.038950936371359e-06
+4-Aminobiphenyl,ambient_conc,0.0
+4-Nitrobiphenyl,ambient_conc,0.0
+4-Nitrophenol,ambient_conc,1.4895027714745311e-05
+Acetaldehyde,ambient_conc,2.8543584686183676e-05
+Acetaldehyde,cancer_risk,0.0004506573023801906
+Acetaldehyde,exposure_conc,0.0004506573023801906
+Acetaldehyde,hazard_quotient,0.0004506573023801306
+Acetamide,ambient_conc,0.0
+Acetamide,cancer_risk,9.985993528670767e-05
+Acetamide,exposure_conc,9.985993528670767e-05
+Acetonitrile,ambient_conc,2.88350634370782e-05
+Acetonitrile,exposure_conc,0.0004983145168912015
+Acetonitrile,hazard_quotient,0.0004983145168911405
+Acetophenone,ambient_conc,3.662387989346696e-05
+Acrolein,ambient_conc,4.547936271618091e-05
+Acrolein,exposure_conc,0.0004758323667031725
+Acrolein,hazard_quotient,0.0004758323667031725
+Acrylamide,ambient_conc,1.868823190888753e-05
+Acrylamide,cancer_risk,0.0003898347483928345
+Acrylamide,exposure_conc,0.0003898347483928345
+Acrylamide,hazard_quotient,0.0003898347483928345
+Acrylic acid,ambient_conc,2.5582426719822384e-05
+Acrylic acid,exposure_conc,0.00048575354480770964
+Acrylic acid,hazard_quotient,0.00048575354480770964
+Acrylonitrile,ambient_conc,2.352105563960358e-05
+Acrylonitrile,cancer_risk,0.0004999228871066796
+Acrylonitrile,exposure_conc,0.0004999228871068184
+Acrylonitrile,hazard_quotient,0.0004999228871068184
+Allyl chloride,ambient_conc,1.2965930774901928e-05
+Allyl chloride,cancer_risk,0.00040250965424928225
+Allyl chloride,exposure_conc,0.00040250965424950207
+Allyl chloride,hazard_quotient,0.00040250965424950207
+Aniline,ambient_conc,2.0726315085406467e-05
+Aniline,cancer_risk,0.0004297830089561438
+Aniline,exposure_conc,0.00042978300895624817
+Aniline,hazard_quotient,0.00042978300895624817
+Antimony compounds,ambient_conc,3.761694596477572e-05
+Antimony compounds,exposure_conc,0.0005502331225195644
+Antimony compounds,hazard_quotient,0.0005502331225194534
+"Arsenic compounds (inorganic, may include arsine)",ambient_conc,3.749537557270698e-05
+"Arsenic compounds (inorganic, may include arsine)",cancer_risk,0.0005563211882309809
+"Arsenic compounds (inorganic, may include arsine)",exposure_conc,0.0005563211882308698
+"Arsenic compounds (inorganic, may include arsine)",hazard_quotient,0.0005563211882312029
+Arsine,ambient_conc,0.0
+Arsine,exposure_conc,0.0
+Arsine,hazard_quotient,0.0
+Asbestos,ambient_conc,1.7232020414699164e-05
+Benzene,ambient_conc,2.9430086039825493e-05
+Benzene,cancer_risk,0.0004534467241049591
+Benzene,exposure_conc,0.00045344672410500126
+Benzene,hazard_quotient,0.00045344672410500126
+Benzidine,ambient_conc,0.0
+Benzidine,cancer_risk,9.700073375513643e-05
+Benzidine,exposure_conc,9.700073375517972e-05
+Benzidine,hazard_quotient,9.700073375497655e-05
+Benzotrichloride,ambient_conc,0.0
+Benzotrichloride,cancer_risk,0.0
+Benzotrichloride,exposure_conc,0.0
+Benzyl chloride,ambient_conc,2.881699627566462e-05
+Benzyl chloride,cancer_risk,0.0004887973873634532
+Benzyl chloride,exposure_conc,0.0004887973873634621
+Beryllium compounds,ambient_conc,3.975750465367132e-05
+Beryllium compounds,cancer_risk,0.0005399422328952834
+Beryllium compounds,exposure_conc,0.0005399422328952623
+Beryllium compounds,hazard_quotient,0.0005399422328952324
+beta-Propiolactone,ambient_conc,0.0
+Biphenyl,ambient_conc,3.1513730576433464e-05
+Bis(2-ethylhexyl)phthalate,ambient_conc,2.9044137694889077e-08
+Bis(2-ethylhexyl)phthalate,cancer_risk,0.00010012339243375292
+Bis(2-ethylhexyl)phthalate,exposure_conc,0.00010012339243383397
+Bis(2-ethylhexyl)phthalate,hazard_quotient,0.00010012339243383397
+Bis(chloromethyl)ether,ambient_conc,0.0
+Bis(chloromethyl)ether,cancer_risk,0.0
+Bis(chloromethyl)ether,exposure_conc,0.0
+Bromoform,ambient_conc,2.3324374875954844e-09
+Bromoform,cancer_risk,0.0005325347570930925
+Bromoform,exposure_conc,0.0005325347570930625
+Cadmium compounds,ambient_conc,4.0153281745824926e-05
+Cadmium compounds,cancer_risk,0.0005346016665072171
+Cadmium compounds,exposure_conc,0.0005346016665072171
+Cadmium compounds,hazard_quotient,0.0005346016665072472
+Calcium cyanamide,ambient_conc,0.0
+Captan,ambient_conc,1.1102230246251565e-16
+Captan,cancer_risk,0.00012370587200213987
+Captan,exposure_conc,0.00012370587200213987
+Carbaryl,ambient_conc,0.0
+Carbon disulfide,ambient_conc,7.46367403280045e-06
+Carbon disulfide,exposure_conc,0.0002449791200361327
+Carbon disulfide,hazard_quotient,0.00024497912003621376
+Carbon tetrachloride,ambient_conc,1.1971037254976302e-06
+Carbon tetrachloride,cancer_risk,0.0004255587615283107
+Carbon tetrachloride,exposure_conc,0.00042555876152837067
+Carbon tetrachloride,hazard_quotient,0.0004255587615281486
+Carbonyl sulfide,ambient_conc,3.482853000082997e-05
+Catechol,ambient_conc,1.2883553487622615e-05
+Chlordane,ambient_conc,0.0
+Chlordane,cancer_risk,0.00016225978047740394
+Chlordane,exposure_conc,0.00016225978047738286
+Chlordane,hazard_quotient,0.00016225978047741283
+Chlorine,ambient_conc,3.613597975353765e-05
+Chlorine,exposure_conc,0.0005427892000790827
+Chlorine,hazard_quotient,0.0005427892000793003
+Chloroacetic acid,ambient_conc,1.0879830289169937e-05
+Chlorobenzene,ambient_conc,3.680186019688e-05
+Chlorobenzene,exposure_conc,0.0005730797980374368
+Chlorobenzene,hazard_quotient,0.0005730797980373046
+Chlorobenzilate,ambient_conc,0.0
+Chlorobenzilate,cancer_risk,0.0
+Chlorobenzilate,exposure_conc,0.0
+Chloroform,ambient_conc,2.3532837368709356e-05
+Chloroform,exposure_conc,0.00043326548488494817
+Chloroform,hazard_quotient,0.00043326548488527235
+Chloromethyl methyl ether,ambient_conc,3.172192096572161e-06
+Chloroprene,ambient_conc,1.740137765963599e-05
+Chloroprene,exposure_conc,0.00032547657318704427
+Chloroprene,hazard_quotient,0.0003254765731870709
+chromium_iii,ambient_conc,4.048150990886068e-05
+chromium_vi,ambient_conc,4.051786082100545e-05
+chromium_vi,cancer_risk,0.0004770821088727545
+chromium_vi,exposure_conc,0.000477176859960223
+chromium_vi,hazard_quotient,0.0004770821088727334
+Cobalt compounds,ambient_conc,4.025121258256492e-05
+Cobalt compounds,exposure_conc,0.0005351987942414291
+Cobalt compounds,hazard_quotient,0.0005351987942412248
+Coke Oven Emissions,ambient_conc,2.199897871055117e-05
+Coke Oven Emissions,cancer_risk,0.0003330816659877666
+Coke Oven Emissions,exposure_conc,0.0003330816659877666
+Cresols_Cresylic acid (isomers and mixture),ambient_conc,3.955312876682378e-05
+Cresols_Cresylic acid (isomers and mixture),exposure_conc,0.00044563279857401383
+Cresols_Cresylic acid (isomers and mixture),hazard_quotient,0.0004456327985737918
+Cumene,ambient_conc,3.478003810947208e-05
+Cumene,exposure_conc,0.0005427483743989242
+Cumene,hazard_quotient,0.00054274837439876
+Cyanide compounds,ambient_conc,4.190903032907459e-05
+Cyanide compounds,exposure_conc,0.0005362675174087058
+Cyanide compounds,hazard_quotient,0.0005362675174087058
+Diazomethane,ambient_conc,0.0
+Dibenzofurans,ambient_conc,2.127379362543922e-05
+Dibutylphthalate,ambient_conc,3.5965276999769786e-05
+Dichloroethyl ether,ambient_conc,2.0375259737983577e-05
+Dichloroethyl ether,cancer_risk,0.00035947660535886575
+Dichloroethyl ether,exposure_conc,0.0003594766053587081
+Dichlorvos,ambient_conc,0.0
+Dichlorvos,cancer_risk,0.0
+Dichlorvos,exposure_conc,0.0
+Dichlorvos,hazard_quotient,0.0
+Diesel particulate matter,ambient_conc,2.220446049250313e-16
+Diesel particulate matter,exposure_conc,0.0004420022016431407
+Diesel particulate matter,hazard_quotient,0.0004420022016431407
+Diethanolamine,ambient_conc,3.0539680208558885e-05
+Diethanolamine,exposure_conc,0.000498006848109569
+Diethanolamine,hazard_quotient,0.0004980068481094579
+Diethyl sulfate,ambient_conc,0.0
+Dimethyl carbamoyl chloride,ambient_conc,0.0
+Dimethyl formamide,ambient_conc,3.336150169202633e-05
+Dimethyl formamide,exposure_conc,0.0005252033462013876
+Dimethyl formamide,hazard_quotient,0.0005252033462013665
+Dimethyl phthalate,ambient_conc,2.9836571011836454e-05
+Dimethyl sulfate,ambient_conc,2.117064492527909e-05
+Epichlorohydrin,ambient_conc,1.950307875747681e-05
+Epichlorohydrin,cancer_risk,0.00045620731187052705
+Epichlorohydrin,exposure_conc,0.00045620731187074465
+Epichlorohydrin,hazard_quotient,0.00045620731187074465
+Ethyl acrylate,ambient_conc,2.6671295695956896e-05
+Ethyl acrylate,cancer_risk,0.0004712966368626538
+Ethyl acrylate,exposure_conc,0.00047129663686254394
+Ethyl benzene,ambient_conc,3.872220593025942e-05
+Ethyl benzene,exposure_conc,0.0004502036178088007
+Ethyl benzene,hazard_quotient,0.00045020361780888173
+Ethyl carbamate,ambient_conc,2.220446049250313e-16
+Ethyl carbamate,cancer_risk,0.0005164370249351092
+Ethyl carbamate,exposure_conc,0.0005164370249351092
+Ethyl chloride,ambient_conc,3.381519602909005e-05
+Ethyl chloride,exposure_conc,0.0005294980100246466
+Ethyl chloride,hazard_quotient,0.0005294980100246754
+Ethylene dibromide,ambient_conc,1.622495443731599e-07
+Ethylene dibromide,cancer_risk,0.0005315592349649688
+Ethylene dibromide,exposure_conc,0.0005315592349648667
+Ethylene dibromide,hazard_quotient,0.0005315592349647557
+Ethylene dichloride,ambient_conc,4.681986026192624e-06
+Ethylene dichloride,cancer_risk,0.0005002767851875261
+Ethylene dichloride,exposure_conc,0.0005002767851875861
+Ethylene dichloride,hazard_quotient,0.0005002767851877482
+Ethylene glycol,ambient_conc,3.521469446061682e-05
+Ethylene glycol,exposure_conc,0.0005732793238910225
+Ethylene glycol,hazard_quotient,0.0005732793238909937
+Ethylene imine,ambient_conc,0.0
+Ethylene oxide,ambient_conc,2.92332334192591e-05
+Ethylene oxide,cancer_risk,0.0004907686770895046
+Ethylene oxide,exposure_conc,0.0004907686770895968
+Ethylene oxide,hazard_quotient,0.0004907686770894669
+Ethylene thiourea,ambient_conc,2.3421635655003248e-05
+Ethylene thiourea,cancer_risk,0.0004883450820835174
+Ethylene thiourea,exposure_conc,0.0004883450820835529
+Ethylene thiourea,hazard_quotient,0.0004883450820838327
+Ethylidene dichloride,ambient_conc,2.3505705329149825e-05
+Ethylidene dichloride,cancer_risk,0.0005166166080265762
+Ethylidene dichloride,exposure_conc,0.0005166166080265562
+Ethylidene dichloride,hazard_quotient,0.0005166166080265628
+Fine mineral fibers,ambient_conc,0.0
+Formaldehyde,ambient_conc,2.2344297096300552e-05
+Formaldehyde,cancer_risk,0.000427953363110257
+Formaldehyde,exposure_conc,0.000427953363110257
+Formaldehyde,hazard_quotient,0.0004279533631097829
+Glycol ethers,ambient_conc,2.8422647378061226e-05
+Glycol ethers,exposure_conc,0.0005028613717968587
+Glycol ethers,hazard_quotient,0.0005028613717969186
+Hydrochloric acid,ambient_conc,2.6576318994069316e-05
+Hydrochloric acid,exposure_conc,0.0004985044865404298
+Hydrochloric acid,hazard_quotient,0.0004985044865404298
+Heptachlor,ambient_conc,0.0
+Hexachlorobenzene,ambient_conc,2.164225777452562e-05
+Hexachlorobenzene,cancer_risk,0.0003882195469847833
+Hexachlorobenzene,exposure_conc,0.00038821954698458786
+Hexachlorobenzene,hazard_quotient,0.0003882195469848099
+Hexachlorobutadiene,ambient_conc,2.0195018249391496e-06
+Hexachlorobutadiene,cancer_risk,0.0006659557085045187
+Hexachlorobutadiene,exposure_conc,0.0006659557085044376
+Hexachlorobutadiene,hazard_quotient,0.0006659557085045698
+Hexachlorocyclopentadiene,ambient_conc,2.220446049250313e-16
+Hexachlorocyclopentadiene,exposure_conc,0.00028149208720498536
+Hexachlorocyclopentadiene,hazard_quotient,0.00028149208720487765
+Hexachloroethane,ambient_conc,9.962595761802671e-08
+Hexachloroethane,cancer_risk,0.00020746980817691314
+Hexachloroethane,exposure_conc,0.00020746980817691314
+Hexachloroethane,hazard_quotient,0.00020746980817672108
+"Hexamethylene-1,6-diisocyanate",ambient_conc,3.1756160043080506e-05
+"Hexamethylene-1,6-diisocyanate",exposure_conc,0.000506492043374075
+"Hexamethylene-1,6-diisocyanate",hazard_quotient,0.0005064920433742082
+Hexamethylphosphoramide,ambient_conc,0.0
+Hexane,ambient_conc,3.962357602782518e-05
+Hexane,exposure_conc,0.0004305036639169168
+Hexane,hazard_quotient,0.0004305036639169168
+Hydrofluoric acid,ambient_conc,3.317669244217726e-05
+Hydrofluoric acid,exposure_conc,0.0005374904433853423
+Hydrofluoric acid,hazard_quotient,0.0005374904433854743
+Hydrazine,ambient_conc,1.9840764025634856e-05
+Hydrazine,cancer_risk,0.00042849498683371947
+Hydrazine,exposure_conc,0.0004284949868338038
+Hydrazine,hazard_quotient,0.00042849498683381716
+Hydroquinone,ambient_conc,2.4703064933955196e-05
+Isophorone,ambient_conc,3.681707670088129e-05
+Isophorone,cancer_risk,0.000580622069263124
+Isophorone,exposure_conc,0.000580622069263124
+Isophorone,hazard_quotient,0.000580622069263124
+Lead compounds,ambient_conc,4.2673047590009444e-05
+Lead compounds,exposure_conc,0.0004820268781985081
+Lead compounds,hazard_quotient,0.000482026878198598
+Lindane (all isomers),ambient_conc,0.0
+Lindane (all isomers),cancer_risk,0.00040416611398897876
+Lindane (all isomers),exposure_conc,0.0004041661139888977
+Lindane (all isomers),hazard_quotient,0.00040416611398897876
+Maleic anhydride,ambient_conc,2.6174941077763413e-05
+Maleic anhydride,exposure_conc,0.00047359900221407826
+Maleic anhydride,hazard_quotient,0.00047359900221434807
+Manganese compounds,ambient_conc,4.0591051331332324e-05
+Manganese compounds,exposure_conc,0.0004969983873756954
+Manganese compounds,hazard_quotient,0.0004969590248218857
+Methyl ethyl ketone,ambient_conc,4.5446158479542896e-05
+Methyl ethyl ketone,exposure_conc,0.0004615384615385132
+Methyl ethyl ketone,hazard_quotient,0.0004615384615385132
+Mercury compounds,ambient_conc,3.547261587338863e-06
+Mercury compounds,exposure_conc,0.0004446640316206296
+Mercury compounds,hazard_quotient,0.00044466403162075283
+Methanol,ambient_conc,3.50552483215425e-05
+Methanol,exposure_conc,0.0005417862309471432
+Methanol,hazard_quotient,0.0005417862309469811
+Methoxychlor,ambient_conc,0.0
+Methyl bromide,ambient_conc,2.7532642195748856e-05
+Methyl bromide,exposure_conc,0.0005128795523691128
+Methyl bromide,hazard_quotient,0.0005128795523691339
+Methyl chloride,ambient_conc,1.3042303908150615e-06
+Methyl chloride,exposure_conc,0.00028703803189768283
+Methyl chloride,hazard_quotient,0.0002870380318973975
+Methyl chloroform,ambient_conc,1.4362222210777464e-05
+Methyl chloroform,exposure_conc,0.00047438106024669577
+Methyl chloroform,hazard_quotient,0.0004743810602466658
+Methyl hydrazine,ambient_conc,2.4834793548478322e-05
+Methyl iodide,ambient_conc,1.4010965522749363e-05
+Methyl isobutyl ketone,ambient_conc,3.5420929897712607e-05
+Methyl isobutyl ketone,exposure_conc,0.0005741130597498921
+Methyl isobutyl ketone,hazard_quotient,0.0005741130597499521
+Methyl isocyanate,ambient_conc,5.79438851959768e-06
+Methyl isocyanate,exposure_conc,0.0001998381618382066
+Methyl isocyanate,hazard_quotient,0.0001998381618382066
+Methyl methacrylate,ambient_conc,3.140732314260485e-05
+Methyl methacrylate,exposure_conc,0.000523878753859137
+Methyl methacrylate,hazard_quotient,0.0005238787538589971
+Methylene chloride,ambient_conc,1.7063997511188537e-05
+Methylene chloride,cancer_risk,0.00045860207368023705
+Methylene chloride,exposure_conc,0.00045860207368039914
+Methylene chloride,hazard_quotient,0.00045860207368039914
+Methylene diphenyl diisocyanate,ambient_conc,3.2676321657381107e-05
+Methylene diphenyl diisocyanate,exposure_conc,0.0005313808734655482
+Methylene diphenyl diisocyanate,hazard_quotient,0.0005313808734653839
+Methyl tert butyl ether,ambient_conc,3.8870202399436945e-05
+Methyl tert butyl ether,exposure_conc,0.0005108663483030668
+Methyl tert butyl ether,hazard_quotient,0.0005108663483029647
+"N,N-Diethyl aniline",ambient_conc,2.474814540541991e-05
+N-Nitroso-N-methylurea,ambient_conc,0.0
+N-Nitrosomorpholine,ambient_conc,1.82551618781289e-05
+N-Nitrosomorpholine,cancer_risk,0.00024225831278834064
+N-Nitrosomorpholine,exposure_conc,0.00024225831278805086
+Naphthalene,ambient_conc,3.934220618123318e-05
+Naphthalene,cancer_risk,0.000449128635245941
+Naphthalene,exposure_conc,0.00044912863524583
+Naphthalene,hazard_quotient,0.00044912863524560793
+Nickel compounds,ambient_conc,3.9942500634616565e-05
+Nickel compounds,cancer_risk,0.0005031501029277001
+Nickel compounds,exposure_conc,0.0005037881653992413
+Nickel compounds,hazard_quotient,0.0005031501029275978
+Nitrobenzene,ambient_conc,1.7334863391269534e-05
+Nitrobenzene,exposure_conc,0.00036199735038640286
+Nitrobenzene,hazard_quotient,0.00036199735038618526
+Nitrosodimethylamine,ambient_conc,0.0
+Nitrosodimethylamine,cancer_risk,8.662840286643739e-05
+Nitrosodimethylamine,exposure_conc,8.662840286643739e-05
+o-Anisidine,ambient_conc,1.4304417414567855e-05
+o-Toluidine,ambient_conc,2.153266282636235e-05
+o-Toluidine,cancer_risk,0.00041264266900808977
+o-Toluidine,exposure_conc,0.0004126426690078677
+p-Dichlorobenzene,ambient_conc,3.5777883221135266e-05
+p-Dichlorobenzene,cancer_risk,0.0005405931350181598
+p-Dichlorobenzene,exposure_conc,0.0005405931350182197
+p-Dichlorobenzene,hazard_quotient,0.0005405931350182197
+p-Dimethylaminoazobenzene,ambient_conc,0.0
+p-Dimethylaminoazobenzene,cancer_risk,0.0
+p-Dimethylaminoazobenzene,exposure_conc,0.0
+p-Phenylenediamine,ambient_conc,5.4447399214740784e-06
+Parathion,ambient_conc,0.0
+Polychlorinated biphenyls (PCBs),ambient_conc,2.07871477824193e-06
+Polychlorinated biphenyls (PCBs),cancer_risk,0.000392307840404212
+Polychlorinated biphenyls (PCBs),exposure_conc,0.0003923078404040499
+Pentachloronitrobenzene,ambient_conc,2.865170983995524e-06
+Pentachloronitrobenzene,cancer_risk,0.00014741390441005053
+Pentachloronitrobenzene,exposure_conc,0.00014741390441021595
+Pentachlorophenol,ambient_conc,8.852976448179307e-06
+Pentachlorophenol,cancer_risk,0.00032092844633292657
+Pentachlorophenol,exposure_conc,0.000320928446332931
+Pentachlorophenol,hazard_quotient,0.0003209284463330065
+Perchloroethylene,ambient_conc,2.2164895195994e-05
+Perchloroethylene,cancer_risk,0.00047542175923693847
+Perchloroethylene,exposure_conc,0.00047542175923693847
+Perchloroethylene,hazard_quotient,0.00047542175923696845
+Phenol,ambient_conc,3.4680608741843784e-05
+Phenol,exposure_conc,0.0005342507973708499
+Phenol,hazard_quotient,0.0005342507973707389
+Phosgene,ambient_conc,1.5714288671786388e-05
+Phosgene,exposure_conc,0.00043852469756863846
+Phosgene,hazard_quotient,0.0004385246975687495
+Phosphine,ambient_conc,0.0
+Phosphine,exposure_conc,8.81110821652442e-05
+Phosphine,hazard_quotient,8.81110821651354e-05
+Phthalic anhydride,ambient_conc,2.7816151712194415e-05
+Phthalic anhydride,exposure_conc,0.00048104080203144865
+Phthalic anhydride,hazard_quotient,0.0004810408020316707
+pom_group_1_unspec,ambient_conc,3.795092430010743e-05
+pom_group_1_unspec,cancer_risk,0.0005788703007519148
+pom_group_1_unspec,exposure_conc,0.0005788703007518194
+pom_group_2_nodata,ambient_conc,3.9929459404265386e-05
+pom_group_2_nodata,cancer_risk,0.0004988112816411516
+pom_group_2_nodata,exposure_conc,0.0004988112816413436
+pom_group_3_vhigh1,ambient_conc,1.0813991744788016e-05
+pom_group_3_vhigh1,cancer_risk,9.582875380492067e-05
+pom_group_3_vhigh1,exposure_conc,9.582875380503169e-05
+pom_group_4_high2,ambient_conc,3.53640304110725e-05
+pom_group_4_high2,cancer_risk,0.0005125823519214657
+pom_group_4_high2,exposure_conc,0.0005125823519214424
+pom_group_5_mhigh3,ambient_conc,4.035365116786259e-05
+pom_group_5_mhigh3,cancer_risk,0.0005436596488949649
+pom_group_5_mhigh3,exposure_conc,0.0005436596488949649
+pom_group_6_med4,ambient_conc,4.024004995209267e-05
+pom_group_6_med4,cancer_risk,0.0005129651587933925
+pom_group_6_med4,exposure_conc,0.0005129651587933925
+pom_group_7_mlow5,ambient_conc,3.8595162717992555e-05
+pom_group_7_mlow5,cancer_risk,0.000585802942676379
+pom_group_7_mlow5,exposure_conc,0.000585802942676379
+pom_group_8_unspec_7,ambient_conc,3.4416087172861584e-05
+pom_group_8_unspec_7,cancer_risk,0.0005167616139868983
+pom_group_8_unspec_7,exposure_conc,0.0005167616139870072
+Polycyclic Organic Matter,ambient_conc,3.374092205228436e-05
+Polycyclic Organic Matter,cancer_risk,0.0003047695827485917
+Polycyclic Organic Matter,exposure_conc,0.00043282461554036434
+Propionaldehyde,ambient_conc,4.440565883800259e-05
+Propoxur,ambient_conc,0.0
+Propylene dichloride,ambient_conc,1.8033052676647033e-06
+Propylene dichloride,cancer_risk,0.0006248199944380283
+Propylene dichloride,exposure_conc,0.0006248199944382504
+Propylene dichloride,hazard_quotient,0.0006248199944382504
+Propylene oxide,ambient_conc,2.788899403193931e-05
+Propylene oxide,cancer_risk,0.0004857378719498249
+Propylene oxide,exposure_conc,0.0004857378719498782
+Propylene oxide,hazard_quotient,0.00048573787194979603
+Quinoline,ambient_conc,1.7236624899857875e-05
+Quinoline,cancer_risk,0.0003020250078559
+Quinoline,exposure_conc,0.00030202500785578453
+Quinone,ambient_conc,2.220446049250313e-16
+Selenium Compounds,ambient_conc,4.810460977280783e-05
+Selenium Compounds,exposure_conc,0.0005446925279669786
+Selenium Compounds,hazard_quotient,0.0005446925279669786
+Styrene,ambient_conc,3.905550565621691e-05
+Styrene,exposure_conc,0.0004612497238808277
+Styrene,hazard_quotient,0.00046124972388088763
+Styrene oxide,ambient_conc,0.0
+Styrene oxide,exposure_conc,4.23183864456389e-06
+Styrene oxide,hazard_quotient,4.2318386447304235e-06
+Titanium tetrachloride,ambient_conc,2.271244885167613e-05
+Titanium tetrachloride,exposure_conc,0.00036736568479195375
+Titanium tetrachloride,hazard_quotient,0.0003673656847921203
+Toluene,ambient_conc,3.803731270525688e-05
+Toluene,exposure_conc,0.00045018620382529333
+Toluene,hazard_quotient,0.0004501862038252334
+Toxaphene,ambient_conc,0.0
+Toxaphene,cancer_risk,0.0
+Toxaphene,exposure_conc,0.0
+Trichloroethylene,ambient_conc,1.5920564706852758e-05
+Trichloroethylene,cancer_risk,0.000430292598967289
+Trichloroethylene,exposure_conc,0.000430292598967289
+Trichloroethylene,hazard_quotient,0.0004302925989674511
+Triethylamine,ambient_conc,3.065266913244721e-05
+Triethylamine,exposure_conc,0.00048581967805177984
+Triethylamine,hazard_quotient,0.0004858196780519186
+Trifluralin,ambient_conc,1.0804970292262513e-07
+Trifluralin,cancer_risk,9.831409257984869e-05
+Trifluralin,exposure_conc,9.83140925799042e-05
+Vinyl acetate,ambient_conc,3.100381660985349e-05
+Vinyl acetate,exposure_conc,0.0005031301839505351
+Vinyl acetate,hazard_quotient,0.0005031301839505351
+Vinyl bromide,ambient_conc,1.5220374751378894e-06
+Vinyl bromide,cancer_risk,9.874235427331179e-05
+Vinyl bromide,exposure_conc,9.874235427331179e-05
+Vinyl bromide,hazard_quotient,9.874235427315858e-05
+Vinyl chloride,ambient_conc,5.28447172611248e-06
+Vinyl chloride,cancer_risk,0.0004598954716243319
+Vinyl chloride,exposure_conc,0.0004598954716242498
+Vinyl chloride,hazard_quotient,0.0004598954716243075
+Vinylidene chloride,ambient_conc,3.1244483987600195e-05
+Vinylidene chloride,exposure_conc,0.0005358039900489331
+Vinylidene chloride,hazard_quotient,0.0005358039900489331
+Xylenes (isomers and mixture),ambient_conc,3.372402618612377e-05
+Xylenes (isomers and mixture),exposure_conc,0.0004424782137796268
+Xylenes (isomers and mixture),hazard_quotient,0.0004424782137797889

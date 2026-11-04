@@ -1,0 +1,77 @@
+{
+ "year": "2020",
+ "region": "1",
+ "blocks": 225438,
+ "population": 15116205.0,
+ "pollutants": 71,
+ "source_groups": 39,
+ "pahpom_origin": "epa_published",
+ "popwtd_total": 24.076564994078776,
+ "popwtd_pahpom": 0.9244280187633286,
+ "src_vs_poll_max_abs_gap": 4.263256414560601e-14,
+ "pahpom_fallback_blocks": {
+  "0": 225438
+ },
+ "check_vs_epa": [
+  {
+   "pollutant": "ETHYLBENZENE",
+   "max_rel_err": 0.0004960317460317443,
+   "p99": 1.8364830600692098e-09,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "PENTACHLOROPHENOL",
+   "max_rel_err": 0.0004170141784819448,
+   "p99": 6.87417394400243e-05,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "ACETALDEHYDE",
+   "max_rel_err": 0.0003980099502485235,
+   "p99": 3.2835116625661445e-10,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "BENZENE",
+   "max_rel_err": 0.00037174721189581206,
+   "p99": 2.31159091867994e-10,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "ETHYLIDENE DICHLORIDE (1,1-DICHLOROETHANE)",
+   "max_rel_err": 0.00035523978685603197,
+   "p99": 3.866228494098234e-05,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "METHYL TERT-BUTYL ETHER",
+   "max_rel_err": 0.00035363457760317907,
+   "p99": 1.1367987746702113e-06,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "METHYLENE CHLORIDE",
+   "max_rel_err": 0.0002780626780626294,
+   "p99": 4.4001865262544015e-08,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "PROPYLENE OXIDE",
+   "max_rel_err": 0.0001245330012452639,
+   "p99": 1.781372382936297e-09,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "2,4,6-TRICHLOROPHENOL",
+   "max_rel_err": 0.00011424219345013142,
+   "p99": 1.0240341185685414e-06,
+   "ours_zero_epa_not": 0
+  },
+  {
+   "pollutant": "VINYL CHLORIDE",
+   "max_rel_err": 0.00010875475802052392,
+   "p99": 5.954696273846547e-08,
+   "ours_zero_epa_not": 0
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+[
+ {
+  "year": 2020,
+  "blocks": 5808484,
+  "population": 334725204.0,
+  "popwtd_total_cancer_risk_per_million": 29.99043873270956,
+  "popwtd_pahpom": 1.095212024813024,
+  "origin": "epa_published"
+ },
+ {
+  "year": 2021,
+  "blocks": 5807940,
+  "population": 334725204.0,
+  "popwtd_total_cancer_risk_per_million": 27.77337178296688,
+  "popwtd_pahpom": 1.0687564438862824,
+  "origin": "recomputed_2021"
+ }
+]
