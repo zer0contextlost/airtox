@@ -76,6 +76,7 @@ input { width: 220px; }
 .bars .track { position: relative; height: 12px; }
 .bars .bar { position: absolute; left: 0; top: 0; height: 12px; border-radius: 0 4px 4px 0; background: var(--bar); }
 h3 { font-size: 14px; margin: 18px 0 8px; font-weight: 600; }
+.xlink { font-size: 13.5px; margin: 14px 0 0; } .xlink a { color: var(--line); }
 .foot { color: var(--muted); font-size: 12.5px; margin-top: 12px; }
 table { border-collapse: collapse; width: 100%; font-size: 14px; }
 th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--grid); }
@@ -210,6 +211,7 @@ function legend() {
 function select(id) {
   if (sel) paths.get(sel).classList.remove("sel");
   sel = id; const p = paths.get(id); p.classList.add("sel"); p.parentNode.appendChild(p);
+  history.replaceState(null, "", "#" + id);
   panel();
 }
 
@@ -270,6 +272,7 @@ function panel() {
   $("drill").innerHTML = d ? `<h3>What drives it, ${dy}${year < 2020 ? " (pollutant detail starts in 2020 here)" : ""}</h3>`
       + bars(d.drivers, "", d.drivers[0][1])
       + (d.sources ? `<h3>Where it comes from, ${dy}</h3>` + bars(d.sources, "%", 100) : "") : "";
+  $("drill").innerHTML += c ? `<p class="xlink"><a href="https://zer0contextlost.github.io/rsei-air/#c=${c.id}">Which plants are behind the industrial share? ${c.name} on the industrial air map (updated to 2024) →</a></p>` : "";
 }
 
 function render() {
@@ -289,6 +292,7 @@ function render() {
   panel();
 }
 legend(); render();
+{ const m = location.hash.match(/^#(\d{5})$/); if (m && byId.has(m[1])) select(m[1]); }
 </script>
 </body>
 </html>
